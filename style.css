@@ -1,9 +1,56 @@
+* {
+    margin:0 ;
+    padding:0;
+}
 
-body {
+.main {
+    height:100vh;
     display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 40vw;
+    padding-bottom: 20%;
+    box-sizing: border-box; /* Contains the image in the box container! */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(194, 197, 168, 0.7);
+    width: 100%;
+    padding: 8vh;
+
+}
+.logo {
+    color:white;
 }
 
 a[href] {
     text-decoration: none;
     color: blue;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:100vh;
+    width: 60vw;
+}
+
+.form {
+    
 }
