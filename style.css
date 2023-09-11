@@ -51,6 +51,18 @@ a[href] {
     width: 60vw;
 }
 
-.form {
-    
+form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.input {
+    display: flex;
+    width: 40%;
+    flex-flow: column ;
+    margin: 10px 10px;
+}
+
+input {
+    padding:8px;
 }
